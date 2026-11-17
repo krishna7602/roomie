@@ -1,0 +1,19 @@
+{
+  "name": "@roomie/shared",
+  "version": "1.0.0",
+  "description": "Shared Zod schemas, types, and constants for Roomie apps",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "private": true
+}
